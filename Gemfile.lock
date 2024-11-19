@@ -1,11 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
-    RedCloth (4.2.9)
-    activesupport (7.0.7.2)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-=======
     activesupport (8.0.0)
       base64
       benchmark (>= 0.3)
@@ -13,7 +8,6 @@ GEM
       concurrent-ruby (~> 1.0, >= 1.3.1)
       connection_pool (>= 2.2.5)
       drb
->>>>>>> 6d9a2fe (VulnerabilityUpdate)
       i18n (>= 1.6, < 2)
       logger (>= 1.4.2)
       minitest (>= 5.1)
@@ -117,14 +111,8 @@ GEM
       typhoeus (~> 1.3)
     html-pipeline (2.14.3)
       activesupport (>= 2)
-<<<<<<< HEAD
-      nokogiri (~> 1.4)
-    i18n (1.14.1)
-=======
       nokogiri (>= 1.4)
     http_parser.rb (0.8.0)
-    i18n (1.14.6)
->>>>>>> 6d9a2fe (VulnerabilityUpdate)
       concurrent-ruby (~> 1.0)
     jekyll (3.10.0)
       addressable (~> 2.4)
@@ -247,13 +235,11 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.3.6)
-<<<<<<< HEAD
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.5)
     minitest (5.19.0)
     net-dns (0.8.0)
-    nokogiri (1.13.6)
-      mini_portile2 (~> 2.8.0)
-=======
+    nokogiri (1.16.3)
+      mini_portile2 (~> 2.8.2)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -272,11 +258,17 @@ GEM
     nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
->>>>>>> 6d9a2fe (VulnerabilityUpdate)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    parslet (1.5.0)
+      blankslate (~> 2.0)
+    posix-spawn (0.3.15)
+    public_suffix (1.5.1)
+    pygments.rb (0.6.3)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.2.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.1.1)
